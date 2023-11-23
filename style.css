@@ -92,7 +92,6 @@ body {
   background: #FFFFFF;
   max-width: 364px;
   max-height: 254px;
-  border-radius: 10px 10px 0 0;
 }
 
 .container__title {
@@ -125,6 +124,11 @@ body {
 
 .product {
   display: inline-block;
+  background-color: #FFFFFF;
+}
+
+.product img {
+  margin: 0 auto;
 }
 
 .product:hover {
@@ -133,7 +137,12 @@ body {
   background-color: #FFFFFF;
   border-radius: 10px;
   transition: 0.3s;
+  cursor: pointer;
 }
+
+/* .product-img {
+  margin: 0 auto;
+} */
 
 .info {
   width: 364px;
@@ -167,6 +176,7 @@ body {
   gap: 32px;
   border-radius: 50px;
   background-color: #FFFFFF;
+  max-height: 1100px;
 }
 
 .container__big-image {
@@ -182,7 +192,7 @@ body {
   flex-direction: column;
   gap: 24px;
   width: 1044px;
-  height: 972px;
+  max-height: 972px;
 }
 
 .sneaker-big__title {
@@ -209,7 +219,7 @@ body {
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
-  height: 840px;
+  max-height: 840px;
   width: 1044px;
 }
 
